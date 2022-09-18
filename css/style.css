@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2? семья= Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 & display=swap');
+
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"),url("../fonts/latoblack.woff")format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/latobold.woff2") format("woff2"),url("../fonts/latobold.woff")format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"),url("../fonts/latoregular.woff")format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family:"larssit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"),url("../fonts/Larsseit-Bold.woff")format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family:"larssit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"),url("../fonts/Larsseit-Medium.woff")format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family:"larssit";
+	src: url("../fonts/Larsseitregular.woff2") format("woff2"),url("../fonts/Larsseitregular.woff")format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a:link,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img{
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+button {
+	cursor: pointer;
+	color: inherit;
+	background-color: inherit;
+}
+body {
+	line-height: 1;
+}
+
+body{
+	font-family: "larssit";
+}
+
+
+.head {
+	color: greenyellow;
+	font-family: "lato";
+}
+
+.subtitle,
+.title {
+	font-size: 30px;
+	font-family: "Roboto";
+	font-weight: 600;
+
+	
+
+}
+.title p{
+	font-size: 16px;
+}
+h3.subtitle{
+	color: brown;
+}
+h3{
+	color: darksalmon;
+}
+
+.episodes .episodes1{
+	color: aqua;
+
+}
+.episodes .episodes1 .name__episode.title{
+	color: rgb(141, 22, 96);
+}
+.episodes2{
+	font-family: "lato";
+
+}
+.episodes3{
+	font-family: "Roboto";
+
+}
+.episodes4{
+	font-family: "lato";
+}
+
+
+.production ~ p{
+	color: blue;
+	
+
+}
+.development + p{
+	color: blueviolet;
+}
+.perception > p{
+color: green;
+}
+.perception > p ~ p{
+	color: red;
+	
+
+}
+
+
+	
+
+footer .link .link-top p ~ div > p + span{
+	color: red;
+}
+
+footer .link .link-top p ~ div > p > a {
+	color: green;
+	
+}
+
